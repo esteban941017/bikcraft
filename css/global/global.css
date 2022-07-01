@@ -9,8 +9,8 @@ h3,
 h4,
 ul,
 p,
-blockquote {
-  margin: 0px;
+blockquote,
+dd {
   margin: 0px;
 }
 ul {
