@@ -1,6 +1,6 @@
 .bicicletas-lista {
-  margin-top: 60px;
-  margin-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 .bicicletas-lista h2 {
   margin-bottom: 40px;
@@ -14,7 +14,11 @@
   margin-right: auto;
   overflow-x: auto;
 }
+#bicicleta .bicicletas-lista ul {
+  padding: 0 0px 20px 0px;
+}
 .bicicletas-lista li {
+  flex: 1;
   min-width: 280px;
 }
 .bicicletas-lista a {
